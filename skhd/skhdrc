@@ -1,0 +1,16 @@
+ctrl + alt - down  : yabai -m window --grid 2:1:0:1:1:1
+ctrl + alt - up    : yabai -m window --grid 2:1:0:0:1:1
+ctrl + alt - right : yabai -m window --grid 1:2:1:0:1:1
+ctrl + alt - left  : yabai -m window --grid 1:2:0:0:1:1
+ctrl + alt - 0x24  : yabai -m window --grid 1:1:0:0:1:1
+
+ctrl + shift - t : yabai -m space --create
+ctrl + shift - w : yabai -m space --destroy
+
+ctrl - left  : yabai -m space --focus prev
+ctrl - right : yabai -m space --focus next
+
+ctrl + shift - right : yabai -m window --space next; yabai -m space --focus next
+ctrl + shift - left  : yabai -m window --space prev; yabai -m space --focus prev
+
+0x68 : skhd -k "ctrl - space"
