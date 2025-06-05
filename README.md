@@ -1,6 +1,7 @@
 # dotfiles
 
 A collection of my simple macOS dotfiles
+
 ![example](./example.webp)
 
 ## Applications I Use
